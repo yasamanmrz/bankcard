@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@font-face {
+    font-family: bebas;
+    src: url(../font/FiraSansCondensed-Black.ttf);
+}
+@font-face {
+    font-family: exa;
+    src: url(../font/FiraSansCondensed-Medium.ttf);
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgb(22, 22, 84), rgb(78, 78, 116));
+
+    font-family: 'exa';
+}
+.card{
+    background-image: linear-gradient(to left, rgb(22, 22, 84),  rgb(78, 78, 116));
+}
+.bank{
+    background: linear-gradient(135deg, rgba(61, 168, 225, 0.25), rgba(255, 255, 225, 0.05));
+    backdrop-filter: blure(14px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+span{
+    font-family: 'bebas';
+}
+
